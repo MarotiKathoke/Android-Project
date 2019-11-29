@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg14">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_page"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:background="@drawable/bg14"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shubham.onlineattendance.HomePage"
+    tools:ignore="ScrollViewSize">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the OnLineAttendance"
+        android:textColor="#e0ffff"
+        android:textStyle="italic"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="23dp"
+        tools:ignore="HardcodedText,UnknownIdInLayout"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/radioButton"
+        android:layout_alignStart="@+id/radioButton" />
+
+    <Button
+        android:text="@string/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enjoy"
+        tools:ignore="HardcodedText,TextViewEdits,UnusedAttribute"
+        android:contextClickable="true"
+        android:cursorVisible="true"
+        android:onClick="@string/Button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="please note when you click on button as like you accept a
+                           licence of OnlineAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:textSize="10sp"
+        android:textColor="#e0ffff"
+        android:textAlignment="center"
+        android:textStyle="normal|italic"
+        tools:ignore="HardcodedText,SmallSp"
+        android:layout_above="@+id/enjoy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:text="@string/Please_enjoy"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="#efffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        tools:ignore="HardcodedText,SpUsage"
+        android:layout_above="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="29dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/homeimg"
+        android:id="@+id/imageView4"
+        tools:ignore="ContentDescription,UnknownId"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
+</ScrollView></RelativeLayout>

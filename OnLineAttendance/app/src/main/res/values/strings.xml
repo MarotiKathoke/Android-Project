@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">OnLineAttendance</string>
+    <string name="Welcome_to_the_OnLineAttendance">Welcome to the OnLineAttendance</string>
+    <string name="Please_enjoy">Please continue with ENJOY</string>
+    <string name="ReadioButton">I accepts Terms and Conditions</string>
+    <string name="Username">UserName</string>
+    <string name="Password">Password</string>
+    <string name="fname">First Name</string>
+    <string name="mname">Middle Name</string>
+    <string name="Lastname">Last Name</string>
+    <string name="CPassword">Cnfirm Password</string>
+    <string name="Phoone_no">Phone No</string>
+    <string name="LoginPage">Login Page</string>
+    <string name="Submit">Submit</string>
+    <string name="cancle">cancle</string>
+    <string name="Register">Register</string>
+    <string name="SignUP">SignUp</string>
+    <string name="Login">Login</string>
+    <string name="RegisterPage">Register Page</string>
+    <string name="student">Student</string>
+    <string name="Address">Address</string>
+    <string name="parent">parent</string>
+    <string name="ParentsVerfi">ParentsVerification</string>
+    <string name="Sonno">Enter your son PNo</string>
+    <string name="Teacher">Teacher</string>
+    <string name="NoteFParent">Note:- If your son not register here with this
+               Phone no then you cant register here</string>
+    <string name="Email">E-mail</string>
+    <string name="DOB">Date Of Birth</string>
+    <string name="pverfy">PVerify</string>
+    <string name="NoteForSemester">Note:- You Need to Select only one semester</string>
+    <string name="Otp">Enter Your OTP</string>
+    <string name="Verification">PasswordVerification</string>
+    <string name="verify">Verify</string>
+    <string name="Button">Continue</string>
+    <string name="semester">Choose a semestr</string>
+    <string-array name="SemesterArray">
+        <item>Third Semester</item>
+        <item>Fourth Semester</item>
+        <item>Fifth Semester</item>
+        <item>Sixth Semester</item>
+        <item>Seventh Semester</item>
+        <item>Eight Semester</item>
+    </string-array>
+    <string name="animal_prompt">Choose your favorite animal</string>
+
+    <string name="fileType">Choose a file</string>
+    <string-array name="arrayFile">
+        <item>I Want To Upload A Image</item>
+        <item>I Want To Upload A pdf File</item>
+        <item>I Want To Upload A Doc File</item>
+    </string-array>
+
+</resources>

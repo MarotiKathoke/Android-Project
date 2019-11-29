@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg14">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/upload_cats_assignments"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg14"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shubham.onlineattendance.UploadCatsAssignments"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="UploadPaper"
+        android:layout_gravity="center"
+        android:textColor="#e0fff0"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:layout_marginBottom="9dp"
+        android:layout_weight="0.1"
+        tools:ignore="HardcodedText,InefficientWeight" />
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="60dp">
+
+
+       <ImageView
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           app:srcCompat="@drawable/galerr"
+           android:id="@+id/ivGallery"
+           tools:ignore="ContentDescription,UnknownIdInLayout"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true" />
+
+       <ImageView
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:id="@+id/ivImage"
+           tools:ignore="ContentDescription"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentEnd="true" />
+
+       <EditText
+           android:layout_width="170dp"
+           android:layout_height="40dp"
+           android:inputType="textPersonName"
+           android:hint="Enter Image Name"
+           android:textColorHint="#eff0ff"
+           android:textColor="#e0fff0"
+           android:textSize="12dp"
+           android:id="@+id/editText2"
+           tools:ignore="HardcodedText"
+           android:layout_alignParentTop="true"
+           android:layout_centerHorizontal="true" />
+   </RelativeLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/option1"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="CAT Question Bank"
+            android:textColor="#e0fff0"
+            android:textStyle="italic|bold"
+            android:textSize="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cat"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Assginment Question Bank"
+            android:textColor="#e0fff0"
+            android:id="@+id/ass"
+            android:textStyle="italic|bold"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+    </RadioGroup>
+
+    <Spinner
+        android:layout_marginBottom="30dp"
+        android:id="@+id/spinner"
+        android:popupBackground="#FFFF99"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+            />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Upload A Paper"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:id="@+id/ivUpload"
+        android:layout_gravity="bottom"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Add new subject"
+        android:textColorHint="#eff0ff"
+        android:textColor="#e0fff0"
+        android:id="@+id/newsub"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:text="add Subject"
+        android:id="@+id/sbok"
+        android:textStyle="italic|bold"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>
+</ScrollView></RelativeLayout>

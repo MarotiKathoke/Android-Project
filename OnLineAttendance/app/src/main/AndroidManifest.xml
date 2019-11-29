@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shubham.onlineattendance">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginPage" />
+        <activity android:name=".PasswordVerification" />
+        <activity android:name=".SelectSemester" />
+        <activity android:name=".ParentView" />
+        <activity android:name=".StudentView" />
+        <activity android:name=".TeacherView" />
+        <activity android:name=".SelectProfetion" />
+        <activity android:name=".RegisterStudent" />
+        <activity android:name=".RegisterTeacher" />
+        <activity android:name=".RegisterParents" />
+        <activity android:name=".SelectSemesterForStudent" />
+        <activity android:name=".UploadNotes" />
+        <activity android:name=".UploadAudioVideo" />
+        <activity android:name=".UploadCatsAssignments" />
+        <activity android:name=".UploadUnivercityPapers" />
+        <activity android:name=".ChechResult" />
+        <activity android:name=".ThirdSem" />
+        <activity android:name=".FourthSemestert" />
+        <activity android:name=".FifthSemester" />
+        <activity android:name=".SixthSemester" />
+        <activity android:name=".SeventhSemester" />
+        <activity android:name=".EightSemester" />
+        <activity android:name=".CatAssUpload" />
+        <activity android:name=".OpenImage" />
+        <activity android:name=".SelectSubject" />
+        <activity android:name=".SubjectFourth" />
+        <activity android:name=".SubjectFifth" />
+        <activity android:name=".SubjectSixth" />
+        <activity android:name=".SubjectSeventh" />
+        <activity android:name=".SubjectEiegth" />
+        <activity android:name=".CheckCatsAss" />
+        <activity android:name=".CheckVideos" />
+        <activity android:name=".CheckNotes" />
+        <activity android:name=".Preseentes"></activity>
+    </application>
+
+</manifest>

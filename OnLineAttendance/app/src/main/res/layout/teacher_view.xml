@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg14">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/teacher_view"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg14"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shubham.onlineattendance.TeacherView">
+
+    <TextView
+        android:text="TeacherView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView13"
+        android:textStyle="normal|bold|italic"
+        android:textAllCaps="false"
+        android:textColor="#e0ffff"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+    <Button
+        android:text="Continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/TContinue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:ignore="HardcodedText"
+        android:textStyle="normal|bold|italic" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView13">
+
+        <RadioButton
+            android:text="GetAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/GetAttendance"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal|bold|italic"
+            android:textSize="17sp"
+            android:textColor="#e0ffff"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:text="Upload Notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/UploadNotes"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:textStyle="normal|bold|italic"
+            android:textColor="#e0ffff"
+            android:textSize="17sp"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:text="Upload Audio and Videos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/UploadAudioandVideos"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:textSize="17sp"
+            android:textStyle="normal|bold|italic"
+            android:textColor="#e0ffff"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:text="Upload CAT and Assignment Question Bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/UploadCATAss"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:textStyle="normal|bold|italic"
+            android:textColor="#e0ffff"
+            android:textSize="17sp"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:text="Upload University Question Bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/UploadQuestion"
+            android:layout_weight="1"
+            android:textStyle="normal|bold|italic"
+            android:textColor="#e0ffff"
+            android:textSize="17sp"
+            android:layout_marginTop="15dp"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:text="Check Result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CheckResult"
+            android:textColor="#e0ffff"
+            android:layout_marginTop="15dp"
+            android:textStyle="normal|bold|italic"
+            android:textSize="17sp"
+            tools:ignore="HardcodedText" />
+
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView></RelativeLayout>

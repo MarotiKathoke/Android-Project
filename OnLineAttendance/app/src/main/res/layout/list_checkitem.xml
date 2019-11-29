@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bg14"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    tools:ignore="ExtraText"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/RollNo"
+            android:layout_weight="1"
+            android:width="60dp"
+            android:textColor="#ffffff"
+            android:gravity="left"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/FirstName"
+            android:layout_weight="2"
+            android:width="80dp"
+            android:textColor="#ffffff"
+            android:gravity="left"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/LastName"
+            android:layout_weight="3"
+            android:width="90dp"
+            android:textColor="#ffffff"
+            android:gravity="left"
+            tools:ignore="RtlHardcoded" />
+
+        <CheckBox
+            android:id="@+id/vs"
+            android:layout_weight="4"
+            android:width="20dp"
+            android:gravity="center|right"
+            tools:ignore="RtlHardcoded"
+            android:checked="true" />
+    </TableRow>
+    </TableLayout>

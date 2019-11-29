@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg14">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/select_semester"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg14"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shubham.onlineattendance.SelectSemester"
+    android:weightSum="1">
+
+    <TextView
+        android:text="SelectSemester"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        tools:ignore="HardcodedText"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#e0ffff"
+        android:layout_weight="0.46" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        tools:ignore="UselessLeaf"
+        android:id="@+id/Rgbutoon"
+        android:paddingLeft="60dp"
+        android:layout_above="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.27">
+
+        <RadioButton
+            android:text="Third Semester"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/Third"
+            android:textColor="#e0ffff"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="normal|bold|italic"
+            tools:ignore="HardcodedText" />
+
+
+        <RadioButton
+            android:text="Forth Semester"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/Forth"
+            android:textColor="#e0ffff"
+            android:textSize="17sp"
+            android:textStyle="bold|italic"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:text="Fifth Semester"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/Fifths"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold|italic"
+            android:textSize="17sp"
+            android:textColor="#e0ffff" />
+
+        <RadioButton
+            android:text="Sixth Semester"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/sixths"
+            tools:ignore="HardcodedText"
+            android:textSize="17sp"
+            android:textStyle="bold|italic"
+            android:textColor="#e0ffff" />
+
+        <RadioButton
+            android:text="Seventh Semester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Seventh"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold|italic"
+            android:textSize="17sp"
+            android:textColor="#e0ffff" />
+
+        <RadioButton
+            android:text="Eight Semester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Eights"
+            tools:ignore="HardcodedText"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold|italic"
+            android:textColor="#e0ffff"
+            android:textSize="17sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:text="@string/NoteForSemester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView12"
+        android:textStyle="italic"
+        android:textColor="#e0ffff"
+        tools:ignore="HardcodedText"
+       />
+
+    <Button
+        android:text="Get_attendace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Getattendance"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="30dp"
+        tools:ignore="HardcodedText,TextViewEdits,UnusedAttribute"
+        android:contextClickable="true"
+        android:cursorVisible="true"
+        android:onClick="GetAttendance"/>
+
+</LinearLayout>
+</ScrollView></RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@drawable/bg14"
+    android:layout_height="50dp"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/save"
+        android:id="@+id/imageView9"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:layout_gravity="center"
+        tools:ignore="ContentDescription,InefficientWeight"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="154dp"
+        android:layout_height="30dp"
+        android:textColor="#e0fff0"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="10dip"
+        android:id="@+id/viewimage"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:text="DOWNLOAD"
+        android:textStyle="bold|italic"
+        android:textColor="#00eeef"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="5dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/download"
+        android:clickable="true"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:visibility="visible" />
+</LinearLayout>
